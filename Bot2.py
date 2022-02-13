@@ -11,7 +11,11 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith('$hello'):
+    if message.content.startswith('-hello'):
         await message.channel.send('Yo!')
+    
+@client.event
+async def on_member_join(member):
+    await member.channel.send("Welcome bro")
 
 client.run('NzIwNzc5NzExNTU4NTgyMjcy.XuK8ag.2_ITvGN5HU2Xn7vPI4vAdNfZA38')
