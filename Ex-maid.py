@@ -84,4 +84,4 @@ async def on_member_remove(member):
     print(member + "has left a server")
 
 
-client.run('NzIwNzc5NzExNTU4NTgyMjcy.XuvzOA._JHXxDyo4-ooUfQo7XZJzTUL7vw')
+client.run('NzIwNzc5NzExNTU4NTgyMjcy.XuK8ag.QBi70-2l4isHpTYhnRF5P1mT8xQ')
