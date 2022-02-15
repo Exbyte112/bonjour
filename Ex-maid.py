@@ -2,8 +2,8 @@ from distutils import command
 from http import client
 import math
 import re
-from discord.ext import commands
-import discord
+from nextcord.ext import commands
+import nextcord
 import random
 
 client = commands.Bot(command_prefix="!", help_command=None)
