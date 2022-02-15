@@ -1,8 +1,7 @@
-from email import message
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
 
-client = discord.Client()
+client = nextcord.Client()
 
 @client.event
 async def on_ready():

@@ -1,5 +1,3 @@
-from distutils import command
-from http import client
 import math
 import re
 from nextcord.ext import commands
